@@ -10,7 +10,6 @@ filetype plugin indent on
 "theme related configs
 set background=light
 colorscheme candy 
-call togglebg#map("<F5>")
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
