@@ -27,6 +27,9 @@ nmap <silent> <leader>sv :so $VIM\vimfiles\_vimrc<CR>
 "hides buffers instead of closing them
 set hidden
 
+"hide gui buttons
+set guioptions=m
+
 set nowrap        " don't wrap lines
 set tabstop=4     " a tab is four spaces
 set autoindent    " always set autoindenting on
