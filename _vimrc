@@ -58,5 +58,14 @@ set noswapfile
 
 "set font
 if has('gui_running')
-    set guifont=consolas:h12
+	set guifont=consolas:h10
 endif
+
+"minibuf explorer
+let g:miniBufExplMapWindowNavVim = 1 
+let g:miniBufExplMapWindowNavArrows = 1 
+let g:miniBufExplMapCTabSwitchBufs = 1 
+let g:miniBufExplModSelTarget = 1
+noremap <C-TAB>   <C-W>w
+noremap <C-S-TAB> <C-W>W
+
